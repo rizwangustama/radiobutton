@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RadioButtonSatu</string>
+
+    <string name="nama">Rizwan Gustama</string>
+    <string name="nim">20180040068</string>
+
+<!--    Daftar Brand Handphone-->
+    <string name="Apple">Apple</string>
+    <string name="huawei">Huawei</string>
+    <string name="samsung">Samsung</string>
+    <string name="oppo">Oppo</string>
+    <string name="vivo">Vivo</string>
+    <string name="xiaomi">Xiaomi</string>
+    <string name="realme">Realme</string>
+
+</resources>

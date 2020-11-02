@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/radioGroup"
+        android:text="Daftar Brand Handphone"
+        android:textAlignment="center"
+        android:background="@drawable/bg"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RadioButton
+            android:id="@+id/radioBtn1"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/Apple"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn2"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/huawei"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn3"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/oppo"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn4"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/vivo"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn5"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/samsung"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn6"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/xiaomi"/>
+
+        <RadioButton
+            android:id="@+id/radioBtn7"
+            android:textSize="17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/realme"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnDisplay"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:text="Display"/>
+
+</RelativeLayout>

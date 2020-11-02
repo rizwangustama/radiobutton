@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#41aea9</color>
+    <color name="colorPrimaryDark">#41aea9</color>
+    <color name="colorAccent">#41aea9</color>
+    <color name="colorAccent1">#a6f6f1</color>
+
+<!--    Gradien-->
+    <color name="star">#868f96</color>
+    <color name="end">#596164</color>
+
+<!--    Dark-->
+    <color name="background">#121212</color>
+    <color name="see">#000000</color>
+
+</resources>
